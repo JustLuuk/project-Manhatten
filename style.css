@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+   background-color: turquoise;
+}
+.container {
+    display: flex;
+    width: 80%;
+    height: 75%;
+    background-color: white;
+}
+
+.boven {
+    background-color: green;
+    height: 15%;
+    width: 80%;
+}
+
+.midden {
+    background-color: rgb(4, 0, 255);
+    width: 50%;
+    height: 75%;
+}
+.menu1 {
+    background-color: yellow;
+    width: 10%;
+    height: 75%
+
+}
+.plaatjes {
+    background-color: red;
+    height: 75%;
+    width: 20%;
+}
+ul a {
+    background-color:teal;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin-top: 4px;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    font-size: 30px;
+}
