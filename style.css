@@ -4,34 +4,36 @@ html, body {
 }
 
 body {
-   background-color: turquoise;
+    background: url(https://image.shutterstock.com/image-vector/blue-white-light-polygonal-mosaic-260nw-230257930.jpg);
+    background-size: 100%
 }
 .container {
     display: flex;
     width: 100%;
     height: 75%;
-    background-color: white;
+
 }
 
 .boven {
-    background-color: green;
+
     height: 15%;
     width: 100%;
 }
 
 .midden {
-    background-color: rgb(4, 0, 255);
+    background-color: rgb(139, 197, 222);
     width: 60%;
     height: 100%;
+
 }
 .menu1 {
-    background-color: yellow;
+
     width: 10%;
     height: 100%
 
 }
 .plaatjes {
-    background-color: red;
+
     height: 100%;
     width: 30%;
 }
@@ -53,9 +55,19 @@ ul {
     margin: 5px;
 }
 footer {
-    background-color: lightblue;
+
     height: 100%
 }
 a:hover, a:active {
-  background-color: red;
+  background-color: lightslategray;
+}
+
+.plaat {
+
+}
+
+.plaat img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%
 }
