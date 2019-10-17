@@ -1,29 +1,29 @@
 <html>
   <head>
-    <title> elektrische auto's </title>
-     <link rel="stylesheet" type="text/css" href="opdracht.css">
+    <!-- informatie over de pagina en verwijzingen -->
+     <link rel="stylesheet" type="text/css" href="ffkijken.css">
   </head>
   <body>
     <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="Slide">
+  <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="images/veelmodels.jpg" style="width:100%">
-    <div class="text"><a href="watishet.html">wat is een elektrische auto?</a></div>
-  </div>
-
-  <div class="Slide">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/oudeelektrischeauto.jpg" style="width:100%">
-    <div class="text"><a href="vroeger.html">elektrische auto's door de tijd heen</a></div>
-  </div>
-
-  <div class="Slide">
-    <div class="numbertext">3 / 3</div>
     <img src="images/teslaR.jpg" style="width:100%">
-    <div class="text"><a href="debeste.html">de beste elektrische auto's op dit moment</a></div>
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="veelmodels.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="oudeelektrischeauto.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -39,8 +39,9 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
-<script>
-    var slideIndex = 1;
+  </body>
+  <script>
+        var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -55,7 +56,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("slide");
+  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -68,8 +69,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-</script>
-
-
-  </body>
+  </script>
 </html>
